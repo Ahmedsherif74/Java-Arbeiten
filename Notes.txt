@@ -152,4 +152,33 @@ if (condition1) {
 
 
 
+Short Hand Else If :
+
+
+variable = (condition) ? expressionTrue :  expressionFalse;
+
+
+String result = (time < 18) ? "Good day." // if part : "Good evening." // else part;
+
+
+
+Java Switch Statements :
+
+
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default: // this is the case where if we could not find our wanted case so we excute the default Case
+    // code block
+}
+
+
+Java Loops :
+
+
+    While Loops :
 
