@@ -109,6 +109,38 @@ also you can use
 concat(): // firstName.concat(lastName);  and it will handle the spaces
 
 
+Java Math :
+
+Math.max(x,y); // it will gives you the max between the x and y
+
+Math.min(x,y): // min between x and y
+
+Math.sqrt(x); // it will gives you the sqareRoot of value X
+
+Math.abs(x); // it will gives you the positive absolute value
+
+Math.random(): // fetch a random number  int randomNum = (int)(Math.random() * 101);  // 0 to 100
+
+Math.random // Gives you a double always
+
+
+
+
+Java if else ( Conditions ) :
+
+
+if (condition) {
+    The Body of the Condition
+}
+
+
+if (condition) {
+// the Body of the condition
+} else {
+// the body of the else
+}
+
+
 
 
 
