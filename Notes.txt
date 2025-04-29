@@ -141,6 +141,15 @@ if (condition) {
 }
 
 
+if (condition1) {
+  // Body of the if
+} else if (condition2) {
+  // Body of the else if
+} else {
+  //Body of the else
+}
+
+
 
 
 
