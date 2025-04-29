@@ -81,3 +81,34 @@ Logical Operators :
 || // Returns true if one of the statements is true
 
 ! // Reverse the result, returns false if the result is true
+
+
+String Stuff :
+
+
+String txt = "Ahmed" ;
+
+txt.lenght(); // To fetch the lenght of this string
+
+txt.toUpperCase(); // to change it to uppercase
+
+txt.toLowerCase(); // to change it to lowercase
+
+txt.indexOf("h"); // it should give me the position of that character of the char or
+
+ if i gave it a word it should give me the position of the first char of this word // it outputs here 1
+
+
+
+String Concatenation :
+
+you can use +
+
+also you can use
+
+concat(): // firstName.concat(lastName);  and it will handle the spaces
+
+
+
+
+
