@@ -30,3 +30,45 @@ and so on
 
 TypeCasting :
 
+Type casting is when you assign a value of one primitive data type to another type.
+
+Widening Casting (automatically) - converting a smaller type to a larger type size
+byte -> short -> char -> int -> long -> float -> double
+
+    int myInt = 9;
+    double myDouble = myInt; // Automatic casting: int to double
+
+Narrowing Casting (manually) - converting a larger type to a smaller size type
+double -> float -> long -> int -> char -> short -> byte
+
+    double myDouble = 9.78d;
+    int myInt = (int) myDouble; // Manual casting: double to int
+
+
+Operations :
+
++ - * / % ++ --
+
+
+Assignment operations :
+
+x +=3 // Means x=x+3
+
+x -=3 // Means x=x-3
+
+x *=3 // Means x=x*3
+
+
+Comparison Operatots :
+
+== // If the two items are equal
+
+!= // If the two items are not equal
+
+> // first greater than 2nd
+
+< // 2nd greater than first
+
+>= // Greater than or equal to
+
+<= // Less than or equal to
