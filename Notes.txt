@@ -1,0 +1,32 @@
+Java DataTypes :
+
+String : A data Type to store text in " "
+
+byte : to store an intger -128 to 127
+
+short : to store numbers from -32,768 to 32,767
+
+int : to store numbers // -2,147,483,648 to 2,147,483,647
+
+long : to store numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+
+float : to store numbers with decimals like 1.5f //  Sufficient for storing 6 to 7 decimal digits
+
+double : to store decimals Sufficient for storing 15 to 16 decimal digits   should end with d
+
+char : to store only single character // char myVar1 = 65  sout myVar1 will print the ASCII code of this number
+
+boolean : to store either true or false //true or false
+
+How to declare more than one variable in just one line :
+
+int x , y , z ;
+
+x = bew ;
+
+and so on
+
+
+
+TypeCasting :
+
