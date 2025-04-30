@@ -314,3 +314,68 @@ To change the element value do the following :
 myNumbers [1][1] = 5 ; // Means we want to update the value of the 2nd row and 2nd column // then 5 instead of 6
 
 
+Loop Over A 2D Arrays :
+
+
+int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+
+
+for (int i = 0; i < myNumbers.length; ++i) {
+
+
+  for (int j = 0; j < myNumbers[i].length; ++j) {
+    System.out.println(myNumbers[i][j]); // this loop goes over every column of each row in the matrix
+  }
+
+  }
+
+
+
+Java Methods :
+
+Basic without parameters:
+
+public void myMethod (){
+Body of the method
+}
+
+
+With parameters :
+
+static void myMethod(String fname , int age) {
+    System.out.println( fname + " " + age + " Refsnes" );
+  }
+
+
+  myMethod ("bew" , 15) ;
+
+
+With Conditions :
+
+  static void checkAge(int age) {
+
+    // If age is less than 18, print "access denied"
+    if (age < 18) {
+      System.out.println("Access denied - You are not old enough!");
+
+    // If age is greater than, or equal to, 18, print "access granted"
+    } else {
+      System.out.println("Access granted - You are old enough!");
+    }
+
+  }
+
+
+
+ Java Methods Return Values :
+
+
+ If i want to return a value ; i should do the following
+
+ static int // return an int (int x){
+ return 5+x ;
+ }
+
+
+
+
