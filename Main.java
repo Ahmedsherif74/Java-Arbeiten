@@ -1,14 +1,24 @@
-import java.util.Scanner; // import the Scanner class
+import java.io.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
-            String userName;
+        Scanner scanner = new Scanner(System.in);
+        int q = scanner.nextInt();
 
-            // Enter username and press Enter
-            System.out.println("Enter username");
-            userName = scanner.nextLine();
+        for (int c=1; c<=q ; c++){
+            int a = scanner.nextInt();
+            int b = scanner.nextInt();
+            int n = scanner.nextInt();
 
-            System.out.println("Username is: " + userName);
+            int sum = a;
+            for (int i =0; i<n ; i++){
+
+                sum +=(int)(Math.pow(2, i))*b;
+                System.out.print(sum +" ");
+
+            }
+            System.out.println();
         }
     }
+}
