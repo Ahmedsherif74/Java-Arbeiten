@@ -1,5 +1,14 @@
+import java.util.Scanner; // import the Scanner class
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+            Scanner scanner = new Scanner(System.in);
+            String userName;
+
+            // Enter username and press Enter
+            System.out.println("Enter username");
+            userName = scanner.nextLine();
+
+            System.out.println("Username is: " + userName);
+        }
     }
-}

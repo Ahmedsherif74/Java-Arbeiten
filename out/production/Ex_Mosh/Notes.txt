@@ -421,14 +421,12 @@ User Input Using Scanner :
 
 import java.util.Scanner;  // Import the Scanner class
 
-   public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
-            String userName;
+class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);  // Create a Scanner object
+    System.out.println("Enter username");
 
-            // Enter username and press Enter
-            System.out.println("Enter username");
-            userName = scanner.nextLine();
-
-            System.out.println("Username is: " + userName);
-        }
-    }
+    String userName = scanner.nextLine();  // Read user input
+    System.out.println("Username is: " + userName);  // Output user input
+  }
+}
