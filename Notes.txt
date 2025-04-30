@@ -182,3 +182,25 @@ Java Loops :
 
     While Loops :
 
+    while (condition) {
+      // code block to be executed
+    }
+
+
+    int i = 0;
+    while (i < 5) {
+    sout(i);
+    i++ ;
+    }
+
+
+    Do while :
+
+
+    do {
+      // do the following
+    }
+    while (condition);
+
+
+
