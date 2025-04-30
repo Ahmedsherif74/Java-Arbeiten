@@ -244,5 +244,31 @@ Java Loops :
 
 
 
+Java Break :
+
+for (int i = 0; i < 10; i++) {
+  if (i == 4) {
+    break;
+  }
+  System.out.println(i);
+} // the loop stops when i equals to 4
+
+
+
+
+Java continue :
+
+for (int i = 0; i < 10; i++) {
+  if (i == 4) {
+    continue;
+  }
+  System.out.println(i);
+} // Continue means skip the next instruction and go for the next iteration
+
+
+
+Java Arrays :
+
+
 
 
