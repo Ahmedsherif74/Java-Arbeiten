@@ -1,0 +1,55 @@
+Big O :
+
+
+Time Complexity : The time taken to run the code 
+Space Complexity : The space takem to run the code 
+
+We Have 3 Symbols which are : 
+
+Omega 
+theta 
+O 
+
+
+Omega for the best case 
+theta for an average case
+O For the worst case 
+
+Big O : O(n)  // the worst case 
+
+Drop Constants : When we have O(3n) or O(476474n) then all are O(n) // n + n  , when we have a full loop then we have another new loop which is n+n 
+
+
+O(n^2) : is when you have nested loop a loop inside another loop .. 
+
+Loop{
+Loop;
+}
+
+this would be  N*N = O(n^2) 
+
+Drop Non-Dominants : when we have O(n^2) + O(n) = O(n^2 + n ) = O(n^2) // Because n^2 is dominant
+
+
+- When just one or two or 1000 Operations (Without Loops) Then when have O(1)  which is the most efficient
+
+- O( log n ) is when you're dividing the array by half until reaching the needed number ; // Divide and conquer
+
+- O(n log n) with some sorting algorithms 
+
+
+
+## O(n^2) < O(n log n ) < O(n) < O(Log n) < O(1)  // the time complexity from worst to best  , But this is the case if N is the only given parameters 
+
+
+if we have two parameters in two different loop // A, B 
+
+; Then we have O(a + b)
+
+if nested loops 
+
+; Then we have O(a * b);
+
+
+BIG O CHEAT SHEET : https://www.bigocheatsheet.com/
+

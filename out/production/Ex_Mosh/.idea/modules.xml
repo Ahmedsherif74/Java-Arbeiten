@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Ex_Mosh.iml" filepath="$PROJECT_DIR$/.idea/Ex_Mosh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstModuleNeetCode/firstModuleNeetCode.iml" filepath="$PROJECT_DIR$/firstModuleNeetCode/firstModuleNeetCode.iml" />
     </modules>
   </component>
 </project>
