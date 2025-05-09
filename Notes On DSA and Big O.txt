@@ -53,3 +53,13 @@ if nested loops
 
 BIG O CHEAT SHEET : https://www.bigocheatsheet.com/
 
+
+
+
+Dynamic Arrays and Static Arrays : 
+
+
+
+
+Static Arrays is Fixed Arrays , While the dynamic is extendable
+
