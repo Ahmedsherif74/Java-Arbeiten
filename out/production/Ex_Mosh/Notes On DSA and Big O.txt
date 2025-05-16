@@ -64,7 +64,9 @@ Dynamic Arrays and Static Arrays :
 Static Arrays is Fixed Arrays , While the dynamic is extendable
 
 
-HashMaps :
+HashTables :
+
+
 
 // To be written here
 
